@@ -1,5 +1,5 @@
 # Image Viewer
-A very basic image viewer web component.  
+A basic image viewer component for the web.  
 
 # How to use
 1.  Add `imgViewer.css` and `imgViewer.js` to your html file.
