@@ -6,11 +6,8 @@ A basic image viewer component for the web.
 2.  Using your html element of choice, reate the thumbnails and add the three required attributes, as shown below.
 
 ~~~
-<span data-imgviewer-thumbnail data-img-loc="" data-img-title=""></span>
+<span data-imgviewer-thumbnail data-img-loc="img-path/relative-to/html-file" data-img-title="any string of text"></span>
 ~~~
-- data-imgviewer-thumbnail doesn't need a value.
-- data-img-loc needs a path to an image relative to your html file.
-- data-img-title can be any string of text describing your photo.
 
 Here's a demo:
 https://omeedentezari.github.io/imgViewer/
