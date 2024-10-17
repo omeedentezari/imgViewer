@@ -1,0 +1,51 @@
+/*  Thumbnail styles  */
+[data-imgviewer-thumbnail] {
+  display:inline-block;
+  height:200px;
+  width:200px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:0.5px solid rgba(0,0,0,0.5);
+}
+
+/*  The black box behind the image  */
+[data-imgviewer-boundbox] {
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.7);
+    align-items:center;
+    justify-content:flex-start;
+}
+
+/*  The div that holds the image in its background  */
+[data-imgviewer-img] {
+    display:flex;
+    background-position:center;
+    position:fixed;
+    top:8%;
+    bottom:8%;
+    left:8%;
+    right:8%;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+/*  The close button  */
+[data-imgviewer-close] {
+  height:auto;
+  color:#fff;
+  font-size:0.73em;
+  cursor:pointer;
+  position:fixed;
+  top:0;
+  right:5px;
+  padding-right:10px;
+  text-decoration:underline;
+}
