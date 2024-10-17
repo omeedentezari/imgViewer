@@ -20,7 +20,7 @@ https://omeedentezari.github.io/imgViewer/
 
 | Attribute | Description |
 | -------- | -------- |
-| data-imgviewer-thumbnail | Set by the user on elements that act as thumbnails |
+| data-imgviewer-thumbnail | Set by the person implementing this component on elements that act as thumbnails |
 | data-imgviewer-boundbox | Set by the JS script on a single element that acts as the bounding box for the image viewer |
 | data-imgviewer-img | Set by the JS script on a single element that acts as the image holder (uses div tag with a background image) |
 | data-imgviewer-close | Set by the JS script on a single element that acts as the close button | 
