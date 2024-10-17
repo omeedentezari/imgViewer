@@ -3,7 +3,7 @@ A basic image viewer component for the web.
 
 # How to use
 1.  Add `imgViewer.css` and `imgViewer.js` to your html file.
-2.  Using your html element of choice, reate the thumbnails and add the three required attributes, as shown below.
+2.  Using your html element of choice, create the thumbnail(s) and add the three required attributes, as shown below.
 
 ~~~
 <span data-imgviewer-thumbnail data-img-loc="img-path/relative-to/html-file" data-img-title="any string of text"></span>
