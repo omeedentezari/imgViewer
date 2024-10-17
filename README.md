@@ -7,7 +7,8 @@ A basic image viewer component for the web.
 3.  For each thumbnail tag, add a `data-img-loc` attribute that equals the path to the image relative to the html file.
 4.  (Optional) For each thumbnail tag, add a `data-img-title` that equals the value of the hover text shown.
 
-index.html shows an example of how it may be used.
+Here's a demo:
+https://omeedentezari.github.io/imgViewer/
  
 # Notes
 - The JS file creates an image viewer component - to style it, you can change the properties in the imgViewer.css file.  The properties shown in that file are an exhaustive list of the custom attributes used for styling, which include:
